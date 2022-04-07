@@ -141,3 +141,27 @@ body {
     color: white;
     text-shadow: 2px 2px 1px black;
 }
+
+#cards {
+    width: 95.6%;
+    /* margin: 20px auto; */
+}
+
+#cards .card {
+    display: block;
+    float: left;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+#cards .card .icon {
+    display: block;
+    font-family: 'WebSymbolsRegular';
+    font-size: 50px;
+    font-weight: normal;
+}
