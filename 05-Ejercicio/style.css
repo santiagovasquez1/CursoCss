@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#General {
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+#cabecera {
+    width: 100%;
+    height: 100px;
+    background: rgb(16, 172, 211);
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+
+#menu {
+    background-color: #eeeeee;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+
+#menu ul li a {
+    display: block;
+    color: #444;
+}
+
+
+/* Pseudoclase */
+
+#menu ul li:hover {
+    background-color: rgb(12, 136, 167);
+    cursor: pointer;
+}
+
+#menu ul li:hover a {
+    color: white;
+}
+
+#Contenido {
+    width: 69%;
+    display: block;
+    float: left;
+}
+
+#Contenido .caja {
+    width: 40%;
+    height: 250px;
+    background-color: #ccc;
+    border: 1px solid gray;
+    color: white;
+    display: block;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 240px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px black;
+}
+
+.sombra-interior {
+    box-shadow: 2px 2px 6px black inset !important;
+}
+
+#Contenido h1 {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    color: #444;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+#lateral {
+    width: 30%;
+    min-height: 500px;
+    max-height: 650px;
+    border: 1px solid red;
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 5px;
+    overflow-y: auto;
+}
+
+#lateral p {
+    text-align: justify;
+}
+
+#footer {
+    width: 100%;
+    height: 60px;
+    line-height: 55px;
+    background: #eeeeee;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    color: #444;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.libre {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+}
+
+.libre1 {
+    z-index: 2;
+}
+
+.libre2 {
+    background-color: green;
+    top: 10px;
+    left: 49%;
+    z-index: 1;
+}
+
+.fija {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    font-size: 13px;
+}

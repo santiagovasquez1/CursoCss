@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Selecciona al primer elemento del listado */
+
+ul li {
+    font-size: 20px;
+}
+
+ul li:first-child {
+    color: purple;
+}
+
+
+/* Selecciona un elemento en particular */
+
+ul li:nth-child(2) {
+    color: red;
+}
+
+ul li :last-child {
+    color: gray;
+}
+
+#enlace {
+    font-size: 30px;
+    color: lightsalmon
+}
+
+
+/* Cuando no se ha visitado un enlace */
+
+#enlace:link {
+    color: red
+}
+
+
+/* Cuando ya se ha visitado el enlace */
+
+#enlace:visited {
+    color: orangered;
+}
+
+
+/* Cursor sobre el enlace */
+
+#enlace:hover {
+    color: blue;
+}
+
+
+/* Cuando se esta haciendo click */
+
+#enlace:active {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"] {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+/* Controla los estilos al tener el foco en el control */
+
+input[type="text"]:focus {
+    border: 4px dashed red;
+}

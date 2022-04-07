@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Master en CSS 1</title>
+</head>
+
+<body>
+    <!-- Cabecera de la pagina -->
+
+    <header id="header">
+        <div id="logotipo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <h1>
+            <a href="index.html">
+                Master en CSS
+            </a>
+        </h1>
+    </header>
+    <!-- Menu de navecacion -->
+    <nav id="nav">
+        <ul>
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Contenido</a>
+            </li>
+            <li>
+                <a href="#">Requerimientos</a>
+            </li>
+            <li>
+                <a href="#">Lenguajes</a>
+                <ul>
+                    <li><a href="#">Javascrip</a></li>
+                    <li><a href="#">Html</a></li>
+                    <li><a href="#">CSS</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Frameworks</a>
+                <ul>
+                    <li>
+                        <a href="#">less</a>
+                    </li>
+                    <li><a href="#">SASS</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Proyectos</a>
+            </li>
+            <li>
+                <a href="#">El instructuctor</a>
+            </li>
+            <li>
+                <a href="#">Reseñas</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Inicio del contenido central -->
+    <div id="content">
+
+        <!-- Barra lateral -->
+        <aside id="aside">
+            <div id="login" class="widget">
+                <h3>Entrar a la web</h3>
+                <form>
+                    <label>Usuario</label>
+                    <input class="customInput" type="text">
+                    <label>Contraseña</label>
+                    <input class="customInput" type="password">
+                    <input type="submit" class="submit" value="Entrar">
+                </form>
+                <a href="#">Zona de alumnos</a>
+                <a href="#">Zona de Profesor</a>
+                <a href="#">Zona de Calificaciones</a>
+            </div>
+
+            <div class="widget" id="aula1">
+                <h3 class="red">Aula virtual 1</h3>
+                <form>
+                    <label>Nombre de usuario</label>
+                    <input class="customInput" type="text">
+                    <label>Contraseña</label>
+                    <input class="customInput" type="password">
+                    <input type="submit" class="submit" value="Entrar">
+                </form>
+            </div>
+
+            <div class="widget" id="aula2">
+                <h3 class="blue">Aula virtual 2</h3>
+                <form>
+                    <label>Nombre de usuario</label>
+                    <input class="customInput" type="text">
+                    <label>Contraseña</label>
+                    <input class="customInput" type="password">
+                    <input type="submit" class="submit" value="Entrar">
+                </form>
+            </div>
+
+            <div class="widget" id="interes">
+                <h3>Enlaces de interes</h3>
+                <ul>
+                    <li><a href="#">Master en JavaScript</a></li>
+                    <li><a href="#">Master en PHP</a></li>
+                    <li><a href="#">Master en Frameworks de JS</a></li>
+                </ul>
+            </div>
+
+        </aside>
+
+        <!-- Secciones -->
+        <div id="sections">
+            <section id="frontend">
+                <span class="sticker">
+                    <img class="sticker1" src="img/scotch.png" alt="pegatina">
+                    <img src="img/scotch.png" alt="pegatina" class="sticker2">
+                </span>
+                <h2 class="titulo">Noticias de front-end</h2>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de la entrada</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt aliquid eius ratione sequi quod, quas pariatur architecto repellendus unde a minima rerum! Quos voluptas est sequi
+                        doloremque alias velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui maxime harum ex quas optio sequi minus? Impedit alias voluptas, nihil ab, facere voluptatibus incidunt fugiat excepturi reprehenderit,
+                        dolorem eaque?
+                    </p>
+                    <span class="date">[20-12-2020. Santiago Vasquez]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Titulo de la entrada</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt aliquid eius ratione sequi quod, quas pariatur architecto repellendus unde a minima rerum! Quos voluptas est sequi
+                        doloremque alias velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui maxime harum ex quas optio sequi minus? Impedit alias voluptas, nihil ab, facere voluptatibus incidunt fugiat excepturi reprehenderit,
+                        dolorem eaque?
+                    </p>
+                    <span class="date">[20-12-2020. Santiago Vasquez]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Titulo de la entrada</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt aliquid eius ratione sequi quod, quas pariatur architecto repellendus unde a minima rerum! Quos voluptas est sequi
+                        doloremque alias velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui maxime harum ex quas optio sequi minus? Impedit alias voluptas, nihil ab, facere voluptatibus incidunt fugiat excepturi reprehenderit,
+                        dolorem eaque?
+                    </p>
+                    <span class="date">[20-12-2020. Santiago Vasquez]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Titulo de la entrada</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt aliquid eius ratione sequi quod, quas pariatur architecto repellendus unde a minima rerum! Quos voluptas est sequi
+                        doloremque alias velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui maxime harum ex quas optio sequi minus? Impedit alias voluptas, nihil ab, facere voluptatibus incidunt fugiat excepturi reprehenderit,
+                        dolorem eaque?
+                    </p>
+                    <span class="date">[20-12-2020. Santiago Vasquez]</span>
+                </article>
+            </section>
+
+            <section id="backend">
+                <span class="sticker">
+                    <img class="sticker1" src="img/scotch.png" alt="pegatina">
+                    <img src="img/scotch.png" alt="pegatina" class="sticker2">
+                </span>
+                <h2 class="titulo red">Noticias de back-end</h2>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Titulo de la entrada</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt aliquid eius ratione sequi quod, quas pariatur architecto repellendus unde a minima rerum! Quos voluptas est sequi
+                        doloremque alias velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui maxime harum ex quas optio sequi minus? Impedit alias voluptas, nihil ab, facere voluptatibus incidunt fugiat excepturi reprehenderit,
+                        dolorem eaque?
+                    </p>
+                    <span class="date">[20-12-2020. Santiago Vasquez]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Titulo de la entrada</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt aliquid eius ratione sequi quod, quas pariatur architecto repellendus unde a minima rerum! Quos voluptas est sequi
+                        doloremque alias velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui maxime harum ex quas optio sequi minus? Impedit alias voluptas, nihil ab, facere voluptatibus incidunt fugiat excepturi reprehenderit,
+                        dolorem eaque?
+                    </p>
+                    <span class="date">[20-12-2020. Santiago Vasquez]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Titulo de la entrada</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt aliquid eius ratione sequi quod, quas pariatur architecto repellendus unde a minima rerum! Quos voluptas est sequi
+                        doloremque alias velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui maxime harum ex quas optio sequi minus? Impedit alias voluptas, nihil ab, facere voluptatibus incidunt fugiat excepturi reprehenderit,
+                        dolorem eaque?
+                    </p>
+                    <span class="date">[20-12-2020. Santiago Vasquez]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Titulo de la entrada</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt aliquid eius ratione sequi quod, quas pariatur architecto repellendus unde a minima rerum! Quos voluptas est sequi
+                        doloremque alias velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui maxime harum ex quas optio sequi minus? Impedit alias voluptas, nihil ab, facere voluptatibus incidunt fugiat excepturi reprehenderit,
+                        dolorem eaque?
+                    </p>
+                    <span class="date">[20-12-2020. Santiago Vasquez]</span>
+                </article>
+            </section>
+
+            <section id="instructor">
+                <span class="sticker">
+                    <img class="sticker1" src="img/scotch.png" alt="pegatina">
+                    <img src="img/scotch.png" alt="pegatina" class="sticker2">
+                </span>
+                <h2 class="titulo yellow">Noticias del instructor</h2>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Titulo de la entrada</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt aliquid eius ratione sequi quod, quas pariatur architecto repellendus unde a minima rerum! Quos voluptas est sequi
+                        doloremque alias velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui maxime harum ex quas optio sequi minus? Impedit alias voluptas, nihil ab, facere voluptatibus incidunt fugiat excepturi reprehenderit,
+                        dolorem eaque?
+                    </p>
+                    <span class="date">[20-12-2020. Santiago Vasquez]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Titulo de la entrada</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt aliquid eius ratione sequi quod, quas pariatur architecto repellendus unde a minima rerum! Quos voluptas est sequi
+                        doloremque alias velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui maxime harum ex quas optio sequi minus? Impedit alias voluptas, nihil ab, facere voluptatibus incidunt fugiat excepturi reprehenderit,
+                        dolorem eaque?
+                    </p>
+                    <span class="date">[20-12-2020. Santiago Vasquez]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Titulo de la entrada</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt aliquid eius ratione sequi quod, quas pariatur architecto repellendus unde a minima rerum! Quos voluptas est sequi
+                        doloremque alias velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui maxime harum ex quas optio sequi minus? Impedit alias voluptas, nihil ab, facere voluptatibus incidunt fugiat excepturi reprehenderit,
+                        dolorem eaque?
+                    </p>
+                    <span class="date">[20-12-2020. Santiago Vasquez]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Titulo de la entrada</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt aliquid eius ratione sequi quod, quas pariatur architecto repellendus unde a minima rerum! Quos voluptas est sequi
+                        doloremque alias velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui maxime harum ex quas optio sequi minus? Impedit alias voluptas, nihil ab, facere voluptatibus incidunt fugiat excepturi reprehenderit,
+                        dolorem eaque?
+                    </p>
+                    <span class="date">[20-12-2020. Santiago Vasquez]</span>
+                </article>
+            </section>
+            <div class="history">
+                <a href="#">[Ver historico de noticias]</a>
+            </div>
+        </div>
+
+        <aside id="frase">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt illo aperiam sed fugit dicta? Saepe, ab, dolorem excepturi labore, nostrum tenetur mollitia nulla quaerat laborum voluptate omnis eveniet culpa esse.
+            <a href="#">Leer más frases</a>
+        </aside>
+
+    </div>
+
+    <div class="clearfix"></div>
+    <footer id="footer">
+        <p>&copy; Desarrollado por Santiago Vásquez Gómez</p>
+        <p>Más contenido y formacion de desarrollo web</p>
+    </footer>
+</body>
+
+</html>
