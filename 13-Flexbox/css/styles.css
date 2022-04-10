@@ -1,0 +1,109 @@
+/* Flexbox solo trabaja con las cajas */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* Variables */
+    --rojo: red;
+}
+
+#layout {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    /* Direcciones del flex */
+    flex-direction: row;
+    /* Envoltorio, para poder indicar que no se salgan los elementos del contenedor */
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#layout .caja {
+    /* Adaptar el tamañano de las cajas */
+    /* Con valor de 1, todos tienen el mismo espacio */
+    font-size: 20px;
+    /* Determina el tamaño minimo a las cajas */
+    flex-grow: 1;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+.red {
+    order: 4;
+    background-color: var(--rojo);
+    color: white;
+}
+
+.blue {
+    /* Orden de los elementos */
+    order: 1;
+    /* Reduce el tamaño de los objetos */
+    flex-shrink: 0;
+    background-color: blue;
+    color: white;
+}
+
+.green {
+    order: 3;
+    background-color: green;
+    color: white;
+}
+
+.yellow {
+    order: 2;
+    flex-basis: 100%;
+    background-color: yellow;
+}
+
+#layout2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    /* Direcciones del flex */
+    flex-direction: row;
+    /* Envoltorio, para poder indicar que no se salgan los elementos del contenedor */
+    flex-wrap: wrap;
+    /* Alineacion de los elementos horizontalmente*/
+    justify-content: space-between;
+    /* Alineacion de los elementos verticalmente */
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 700px;
+}
+
+#layout2 .caja2 {
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+.uno {
+    align-self: flex-start;
+}
+
+.dos {
+    align-self: center;
+}
+
+.tres {
+    align-self: flex-end;
+}
+
+.cuatro {
+    align-self: stretch;
+}
