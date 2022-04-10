@@ -1,0 +1,3 @@
+@mixin bordesSolidos($color, $size, $type) {
+    border: $size $type $color;
+}
