@@ -1,0 +1,60 @@
+//Variables 
+@bgColor: lightblue;
+@b      : body;
+@font   : Arial;
+
+@{b} {
+    background-color: @bgColor;
+}
+
+h1 {
+    font-family: @font;
+}
+
+//Anidacion
+.info {
+    ul li {
+        a {
+            color    : white;
+            font-size: 18px;
+        }
+    }
+}
+
+//Mixin
+.sombras(@size) {
+    box-shadow : 10px 10px @size #888888;
+    text-shadow: 5px 5px 5px #888888;
+}
+
+.info {
+    .sombras(5px);
+}
+
+//Operadores y estructuras de control
+
+h1 {
+    font-size: calc(30px + 7px);
+    color    : blue;
+}
+
+//Condicionales
+.textoNegro(@value) when (@value =true) {
+    color: black;
+}
+
+h1 {
+    .textoNegro(true);
+}
+
+
+//Bucles
+.loop(@counter) when (@counter > 0) {
+    height: calc(900px/2*@counter);
+    .loop(@counter - 1);
+}
+
+.info{
+    height: 900px;
+    .loop(10);
+}
